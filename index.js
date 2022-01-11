@@ -121,7 +121,7 @@ var posix = {
         path = arguments[i];
       else {
         if (cwd === undefined)
-          cwd = process.cwd();
+          cwd = '';
         path = cwd;
       }
 
